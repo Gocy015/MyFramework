@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char MyFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MyFramework/PublicHeader.h>
 
+#import "CYView.h"
 
+#import "AFNetworking.h"
