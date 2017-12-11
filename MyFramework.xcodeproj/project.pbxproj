@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		69F5CB162590DCEC3D304177 /* libPods-MyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D767E0B1458EAD7AC2257B /* libPods-MyFramework.a */; };
-		C31D1E671FD96D3C0002B937 /* CYView.h in Headers */ = {isa = PBXBuildFile; fileRef = C31D1E651FD96D3C0002B937 /* CYView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C31D1E681FD96D3C0002B937 /* CYView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D1E661FD96D3C0002B937 /* CYView.m */; };
 		C31D1E711FD96DF50002B937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D1E701FD96DF50002B937 /* AppDelegate.m */; };
 		C31D1E741FD96DF50002B937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D1E731FD96DF50002B937 /* ViewController.m */; };
 		C31D1E771FD96DF50002B937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31D1E751FD96DF50002B937 /* Main.storyboard */; };
@@ -18,14 +16,14 @@
 		C31D1E7F1FD96DF50002B937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D1E7E1FD96DF50002B937 /* main.m */; };
 		C31D1E851FD96E140002B937 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31D1E5A1FD96BB70002B937 /* MyFramework.framework */; };
 		C31D1EF51FD97FE30002B937 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C31D1E5D1FD96BB70002B937 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C341CFB01FDE6D7F007F6D72 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FBB1FDA38E600F58231 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBA1FDA38E600F58231 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC21FDA391B00F58231 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBC1FDA391A00F58231 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC31FDA391B00F58231 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBD1FDA391A00F58231 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC41FDA391B00F58231 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBE1FDA391A00F58231 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC61FDA391B00F58231 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC01FDA391A00F58231 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC71FDA391B00F58231 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC11FDA391B00F58231 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3479FC91FDA397C00F58231 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC81FDA397C00F58231 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C341CFB01FDE6D7F007F6D72 /* MBProgressHUD.h */; };
+		C3479FBB1FDA38E600F58231 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBA1FDA38E600F58231 /* AFNetworking.h */; };
+		C3479FC21FDA391B00F58231 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBC1FDA391A00F58231 /* AFHTTPSessionManager.h */; };
+		C3479FC31FDA391B00F58231 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBD1FDA391A00F58231 /* AFURLSessionManager.h */; };
+		C3479FC41FDA391B00F58231 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBE1FDA391A00F58231 /* AFSecurityPolicy.h */; };
+		C3479FC61FDA391B00F58231 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC01FDA391A00F58231 /* AFNetworkReachabilityManager.h */; };
+		C3479FC71FDA391B00F58231 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC11FDA391B00F58231 /* AFURLResponseSerialization.h */; };
+		C3479FC91FDA397C00F58231 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FC81FDA397C00F58231 /* AFURLRequestSerialization.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +42,6 @@
 		C31D1E5A1FD96BB70002B937 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31D1E5D1FD96BB70002B937 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
 		C31D1E5E1FD96BB70002B937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C31D1E651FD96D3C0002B937 /* CYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYView.h; sourceTree = "<group>"; };
-		C31D1E661FD96D3C0002B937 /* CYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYView.m; sourceTree = "<group>"; };
 		C31D1E6D1FD96DF50002B937 /* MyFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31D1E6F1FD96DF50002B937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C31D1E701FD96DF50002B937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,8 +133,6 @@
 				C3479FBD1FDA391A00F58231 /* AFURLSessionManager.h */,
 				C31D1E5D1FD96BB70002B937 /* MyFramework.h */,
 				C31D1E5E1FD96BB70002B937 /* Info.plist */,
-				C31D1E651FD96D3C0002B937 /* CYView.h */,
-				C31D1E661FD96D3C0002B937 /* CYView.m */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -166,7 +160,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31D1E671FD96D3C0002B937 /* CYView.h in Headers */,
+				C31D1EF51FD97FE30002B937 /* MyFramework.h in Headers */,
 				C3479FC61FDA391B00F58231 /* AFNetworkReachabilityManager.h in Headers */,
 				C3479FC31FDA391B00F58231 /* AFURLSessionManager.h in Headers */,
 				C3479FC41FDA391B00F58231 /* AFSecurityPolicy.h in Headers */,
@@ -174,7 +168,6 @@
 				C3479FC21FDA391B00F58231 /* AFHTTPSessionManager.h in Headers */,
 				C3479FC91FDA397C00F58231 /* AFURLRequestSerialization.h in Headers */,
 				C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */,
-				C31D1EF51FD97FE30002B937 /* MyFramework.h in Headers */,
 				C3479FBB1FDA38E600F58231 /* AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31D1E681FD96D3C0002B937 /* CYView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
