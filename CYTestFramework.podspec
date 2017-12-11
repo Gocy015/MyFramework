@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = { :git => 'https://github.com/Gocy015/MyFramework.git',:tag => '0.0.1-dev' }
 
-  s.public_header_files = 'MyFramework/*.h'
-  s.source_files= 'MyFramework/*.h' #dont include .m(fortest)
+  #s.public_header_files = 'MyFramework/*.h'
+  #s.source_files= 'MyFramework/*.h' #dont include .m(fortest)
   s.ios.vendored_frameworks = 'Products/MyFramework.framework'
 
 
