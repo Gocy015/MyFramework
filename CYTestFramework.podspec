@@ -32,18 +32,23 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'MyFramework/*.h'
   s.source_files= 'MyFramework/*.h' #dont include .m(fortest)
+
   s.ios.vendored_frameworks = 'Products/MyFramework.framework'
 
+
+  
 
   #Subspecs
   s.subspec 'AFNetworking' do |ss|
     ss.source_files = 'MyFramework/AFNetworking/*.h'
     ss.public_header_files = 'MyFramework/AFNetworking/*.h'
+    ss.ios.vendored_frameworks = 'Products/MyFramework.framework'
   end
 
 
   s.subspec 'MBProgressHUD' do |ss|
     ss.source_files = 'MyFramework/MBprogressHUD/*.h'
     ss.public_header_files = 'MyFramework/MBprogressHUD/*.h'
+    ss.ios.vendored_frameworks = 'Products/MyFramework.framework'
   end
 end
