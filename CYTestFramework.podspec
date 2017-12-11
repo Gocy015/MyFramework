@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CYTestFramework"
-  s.version      = "0.0.1"
+  s.version      = "0.0.1-dev"
   s.summary      = "A short description of CYTestFramework."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #
 
   #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT"}
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Gocy" => "caiyang@yy.com" }
+  s.author             = { "Gocy" => "gogocy015@gmail.com" }
   # Or just: s.author    = "Gocy"
   # s.authors            = { "Gocy" => "caiyang@yy.com" }
   # s.social_media_url   = "http://twitter.com/Gocy"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Gocy015/MyFramework.git'}
+  s.source       = { :git => "https://github.com/Gocy015/MyFramework.git' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "MyFramework/*.h"
+  s.ios.vendored_frameworks = "Products/MyFramework.framework"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,7 +132,6 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "AFNetworking", "3.1.0"
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
 end
