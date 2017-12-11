@@ -37,13 +37,13 @@ Pod::Spec.new do |s|
 
   #Subspecs
   s.subspec 'AFNetworking' do |ss|
-    ss.source_files = MyFramework/AF*.h
-    ss.public_header_files = MyFramework/AF*.h
+    ss.source_files = 'MyFramework/AFNetworking/*.h'
+    ss.public_header_files = 'MyFramework/AFNetworking/*.h'
   end
 
 
   s.subspec 'MBProgressHUD' do |ss|
-    ss.source_files = MyFramework/MB*.h
-    ss.public_header_files = MyFramework/MB*.h
+    ss.source_files = 'MyFramework/MBprogressHUD/*.h'
+    ss.public_header_files = 'MyFramework/MBprogressHUD/*.h'
   end
 end
