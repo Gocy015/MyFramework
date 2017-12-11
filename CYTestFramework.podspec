@@ -19,11 +19,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1-dev"
   s.summary      = "A test CYTestFramework."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "A test ,to see whether i can do this right"
 
   s.homepage     = "http://www.yy.com"
@@ -40,11 +35,15 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Products/MyFramework.framework'
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
+  #Subspecs
+  s.subspec 'AFNetworking' do |ss|
+    ss.source_files = MyFramework/AF*.h
+    ss.public_header_files = MyFramework/AF*.h
+  end
 
-  # s.requires_arc = true
+
+  s.subspec 'MBProgressHUD' do |ss|
+    ss.source_files = MyFramework/MB*.h
+    ss.public_header_files = MyFramework/MB*.h
+  end
 end
