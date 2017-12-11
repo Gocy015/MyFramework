@@ -18,7 +18,7 @@
 		C31D1E7F1FD96DF50002B937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D1E7E1FD96DF50002B937 /* main.m */; };
 		C31D1E851FD96E140002B937 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31D1E5A1FD96BB70002B937 /* MyFramework.framework */; };
 		C31D1EF51FD97FE30002B937 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C31D1E5D1FD96BB70002B937 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C341CFB01FDE6D7F007F6D72 /* MBProgressHUD.h */; };
+		C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C341CFB01FDE6D7F007F6D72 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3479FBB1FDA38E600F58231 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBA1FDA38E600F58231 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3479FC21FDA391B00F58231 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBC1FDA391A00F58231 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3479FC31FDA391B00F58231 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3479FBD1FDA391A00F58231 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -168,12 +168,12 @@
 			files = (
 				C31D1E671FD96D3C0002B937 /* CYView.h in Headers */,
 				C3479FC61FDA391B00F58231 /* AFNetworkReachabilityManager.h in Headers */,
-				C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */,
 				C3479FC31FDA391B00F58231 /* AFURLSessionManager.h in Headers */,
 				C3479FC41FDA391B00F58231 /* AFSecurityPolicy.h in Headers */,
 				C3479FC71FDA391B00F58231 /* AFURLResponseSerialization.h in Headers */,
 				C3479FC21FDA391B00F58231 /* AFHTTPSessionManager.h in Headers */,
 				C3479FC91FDA397C00F58231 /* AFURLRequestSerialization.h in Headers */,
+				C341CFB11FDE6D80007F6D72 /* MBProgressHUD.h in Headers */,
 				C31D1EF51FD97FE30002B937 /* MyFramework.h in Headers */,
 				C3479FBB1FDA38E600F58231 /* AFNetworking.h in Headers */,
 			);
