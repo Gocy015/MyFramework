@@ -35,20 +35,19 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'Products/MyFramework.framework'
 
+  #Subspecs begin
 
-  
-
-  #Subspecs
-  s.subspec 'AFNetworking' do |ss|
-    ss.source_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h']
-    ss.public_header_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h']
+    s.subspec 'MBProgressHUD' do |ss|
+    ss.source_files = ["MyFramework/MBProgressHUD/*.h"]
+    ss.public_header_files = ["MyFramework/MBProgressHUD/*.h"]
     ss.ios.vendored_frameworks = 'Products/MyFramework.framework'
-  end
+    end
 
-
-  s.subspec 'MBProgressHUD' do |ss|
-    ss.source_files = 'MyFramework/MBprogressHUD/*.h'
-    ss.public_header_files = 'MyFramework/MBprogressHUD/*.h'
+    s.subspec 'AFNetworking' do |ss|
+    ss.source_files = ["MyFramework/AFNetworking/UIKit+AFNetworking/*.h", "MyFramework/AFNetworking/AFNetworking/*.h"]
+    ss.public_header_files = ["MyFramework/AFNetworking/UIKit+AFNetworking/*.h", "MyFramework/AFNetworking/AFNetworking/*.h"]
     ss.ios.vendored_frameworks = 'Products/MyFramework.framework'
-  end
+    end
+
+#Subspecs end
 end
