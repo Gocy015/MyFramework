@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
 
   #Subspecs
   s.subspec 'AFNetworking' do |ss|
-    ss.source_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h'
-    ss.public_header_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h'
+    ss.source_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h']
+    ss.public_header_files = ['MyFramework/AFNetworking/AFNetworking/*.h','MyFramework/AFNetworking/UIKit+AFNetworking/*.h']
     ss.ios.vendored_frameworks = 'Products/MyFramework.framework'
   end
 
